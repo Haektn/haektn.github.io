@@ -188,24 +188,23 @@ function openOverlay(committee){
 
 Member states will be tasked with formulating cooperative frameworks that balance national security interests with global peace. The debate will explore questions of legality, ethics, and military necessity, while seeking viable paths for international regulation, monitoring, and enforcement to prevent widespread misuse of autonomous weapons.`;
     ropBtn.style.display='none';
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'disec.pdf'; };
   } else if(committee==='legal'){
     title.innerText='GA:6 LEGAL';
+    ropBtn.style.display='none';
     subtitle.innerText='Defining Legal Accountability for AI-Generated Content and Misinformation';
     desc.innerText=`The Sixth Committee of the General Assembly, tasked with legal matters, now confronts the rapidly evolving challenge of artificial intelligence in shaping global discourse. AI-generated misinformation, from deepfakes to manipulated text, has already influenced elections, international relations, and social stability. The lack of clear legal accountability mechanisms has made it difficult for states, corporations, and individuals to navigate responsibility for the spread of harmful AI-driven content.
 
 Delegates will debate the creation of international legal norms to hold actors accountable for AI-generated misinformation while upholding freedoms of expression and innovation. The session will require careful consideration of liability, enforcement across jurisdictions, and the ethical responsibilities of both developers and users of AI technologies.`;
     ropBtn.style.display='none';
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'legal.pdf'; };
   } else if(committee==='unwomen'){
     title.innerText='UN Women';
     subtitle.innerText='Ensuring and Advancing Women\'s Rights in the Digital Age';
     desc.innerText=`UN Women focuses on promoting gender equality and the empowerment of women, and in this agenda, the committee will explore the intersection between gender rights and the digital landscape. The rapid expansion of technology has created both opportunities and threats: online platforms can amplify women’s voices globally, but also expose them to harassment, discrimination, and exclusion. Ensuring safe and equitable digital spaces is now essential for gender justice.
 
 Delegates will assess how governments, private actors, and civil society can work together to protect women’s rights online. Issues of cyber-harassment, access to digital resources, participation in the tech sector, and closing the gender digital divide will be central to discussions. The goal will be to propose international strategies that make the digital age inclusive and empowering for all women.`;
-    ropBtn.style.display='inline-block';
-    ropBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'unwomen.pdf'; };
   } else if(committee==='unhrc'){
     title.innerText='UNHRC';
     subtitle.innerText='Examining the human rights implications of the wrongful detention of prisoners in South America';
@@ -213,16 +212,15 @@ Delegates will assess how governments, private actors, and civil society can wor
 
 Delegates will examine the human rights dimensions of these detentions, considering questions of accountability, rehabilitation, and international monitoring. The discussion will explore both the humanitarian consequences for victims and the structural reforms needed to prevent such abuses, aiming to uphold international human rights law across the region.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'unhrc.pdf'; };
   } else if(committee==='hoc'){
     title.innerText='House of Commons';
     subtitle.innerText='Addressing NHS Staffing Shortages and Long-Term Workforce Planning';
     desc.innerText=`The House of Commons will address one of the United Kingdom’s most pressing domestic issues: the staffing crisis in the National Health Service. Chronic shortages of doctors, nurses, and support staff have strained healthcare delivery, leading to longer wait times and declining patient care quality. Workforce planning has lagged behind population growth, demographic change, and the growing demand for healthcare.
 
 Members of Parliament will debate solutions to ensure the NHS has a sustainable workforce for the future. The discussions will encompass immigration policy, training and education, pay and working conditions, and funding models. Long-term reform strategies must balance fiscal realities with the nation’s commitment to universal, high-quality healthcare.`;
-    ropBtn.style.display='inline-block'; // or 'none' if no ROP button
-    ropBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    ropBtn.style.display='none'; // or 'none' if no ROP button
+    sgBtn.onclick = () => { window.location.href = 'hoc.pdf'; };
   } else if(committee==='hunsc'){
     title.innerText='H:UNSC';
     subtitle.innerText='The Yugoslav War';
@@ -230,7 +228,7 @@ Members of Parliament will debate solutions to ensure the NHS has a sustainable 
 
 Delegates will assume the roles of Security Council members during the conflict, grappling with urgent decisions on intervention, peacekeeping, and sanctions. The debate will test how effectively the Council can balance sovereignty, humanitarian intervention, and the responsibility to protect in one of the most complex conflicts of modern history.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'unsc.pdf'; };
   } else if(committee==='hoic'){
     title.innerText='H:OIC';
     subtitle.innerText='The 1982 Israeli Invasion of Lebanon and the Problems Faced by the Palestinian People';
@@ -238,7 +236,7 @@ Delegates will assume the roles of Security Council members during the conflict,
 
 Delegates will discuss the broader implications of the invasion on the Palestinian struggle for statehood, the role of Arab and Islamic states in addressing displacement and violence, and the search for a unified response within the OIC. The committee will be tasked with navigating sensitive questions of sovereignty, humanitarian relief, and solidarity in the face of ongoing regional tensions.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'hoic.pdf'; };
   } else if(committee==='hcc'){
     title.innerText='HCC';
     subtitle.innerText='1910 Mexican Revolution: The End of Porfirio Díaz Regime';
@@ -246,7 +244,7 @@ Delegates will discuss the broader implications of the invasion on the Palestini
 
 Delegates will embody revolutionaries, politicians, landowners, and military leaders as they shape the trajectory of the revolution. The challenge lies in balancing competing interests while navigating shifting alliances and widespread instability, ultimately determining the fate of Díaz’s regime and the future of Mexico.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'hcc.pdf'; };
   } else if(committee==='hjcc'){
     title.innerText='H:JCC';
     subtitle.innerText='The Ottoman–Wallachian Wars';
@@ -254,7 +252,7 @@ Delegates will embody revolutionaries, politicians, landowners, and military lea
 
 The crisis will challenge participants to manage military strategy, diplomacy, and internal factionalism while navigating the realities of 15th-century warfare. The outcome of the conflict and the stability of the region will depend on how effectively delegates balance ambition with survival in this volatile period.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'jcc.pdf'; };
   } else if(committee==='b99'){
     title.innerText='Brooklyn Nine-Nine';
     subtitle.innerText='The Halloween Heist';
@@ -262,7 +260,7 @@ The crisis will challenge participants to manage military strategy, diplomacy, a
 
 The cabinet will involve dynamic crisis updates, alliances, and betrayals as delegates strategize to outwit rivals and secure victory. Creativity, humor, and quick thinking will be essential, as the balance of power can shift at any moment during the unpredictable events of the Heist.`;
     ropBtn.style.display='none'; // or 'none' if no ROP button
-    sgBtn.onclick = () => { window.location.href = 'comingsoon.html'; };
+    sgBtn.onclick = () => { window.location.href = 'b99.pdf'; };
   }
 
   setTimeout(()=>{ overlay.classList.add('show'); }, 10);
@@ -277,5 +275,6 @@ function closeOverlay(){
 
 </body>
 </html>
+
 
 
