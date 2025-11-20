@@ -88,20 +88,6 @@ section h2 {
   text-align: center;
   padding: 2rem;
 }
-.schedule-box .soon {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.4rem;
-  letter-spacing: 0.06em;
-  color: #c3b3f9;
-  opacity: 0.95;
-  text-shadow: 0 0 8px #b69df8, 0 0 16px #b69df8;
-  animation: pulseGlow 2s infinite alternate;
-}
-@keyframes pulseGlow {
-  0% { text-shadow: 0 0 8px #b69df8, 0 0 16px #b69df8; color: #c3b3f9; }
-  50% { text-shadow: 0 0 12px #d1c3ff, 0 0 24px #d1c3ff; color: #e3d4ff; }
-  100% { text-shadow: 0 0 8px #b69df8, 0 0 16px #b69df8; color: #c3b3f9; }
-}
 
 /* ===== FEE ===== */
 .fee-container {
@@ -207,37 +193,39 @@ footer p.copy { margin-top: 4rem; font-size: 0.9rem; color: #aaa; }
   <!-- SCHEDULE -->
   <section id="schedule">
     <h2>Schedule</h2>
-    <div class="schedule-box">
-      <div class="soon">DAY 1 
-13.30 - 14.00 - Registration
-14.00 - 15.00 - Opening Ceremony
-15.00 - 15.40 - Coffee Break
-15.40 - 16.50 - Session 1
-16.50 - 17.20 - Coffee Break
-17.20 - 18.20 - Session 2
+<div class="schedule-box">
+  <div class="soon">
+    <strong>DAY 1</strong><br>
+    13.30 - 14.00 - Registration<br>
+    14.00 - 15.00 - Opening Ceremony<br>
+    15.00 - 15.40 - Coffee Break<br>
+    15.40 - 16.50 - Session 1<br>
+    16.50 - 17.20 - Coffee Break<br>
+    17.20 - 18.20 - Session 2<br><br>
 
-DAY 2
-08.30-10.00: Session 3
-10.00-10.30: Coffee Break
-10.30-12.00: Session 4
-12.00-13.00: Lunch
-13.00-14.30: Session 5
-14.30-15.00: Coffee Break
-15.00-16.30: Session 6
-16.30-17.00: Coffee Break
-17.30-18.30: Session 7
+    <strong>DAY 2</strong><br>
+    08.30-10.00 - Session 3<br>
+    10.00-10.30 - Coffee Break<br>
+    10.30-12.00 - Session 4<br>
+    12.00-13.00 - Lunch<br>
+    13.00-14.30 - Session 5<br>
+    14.30-15.00 - Coffee Break<br>
+    15.00-16.30 - Session 6<br>
+    16.30-17.00 - Coffee Break<br>
+    17.30-18.30 - Session 7<br><br>
 
-DAY 3
-08.30-10.00: Session 8
-10.00-10.30: Coffee Break
-10.30-12.00: Session 9
-12.00-13.00: Lunch
-13.00-14.30: Session 10
-14.30-15.00: Coffee Break
-15.00-16.30: Session 11
-16.30-16.45: Coffee Break
-16.45-19.00: Closing Ceremony</div>
-    </div>
+    <strong>DAY 3</strong><br>
+    08.30-10.00 - Session 8<br>
+    10.00-10.30 - Coffee Break<br>
+    10.30-12.00 - Session 9<br>
+    12.00-13.00 - Lunch<br>
+    13.00-14.30 - Session 10<br>
+    14.30-15.00 - Coffee Break<br>
+    15.00-16.30 - Session 11<br>
+    16.30-16.45 - Coffee Break<br>
+    16.45-19.00 - Closing Ceremony
+  </div>
+</div>
   </section>
 
   <!-- FEE -->
@@ -308,5 +296,6 @@ function toggleMenu() {
 </script>
 </body>
 </html>
+
 
 
